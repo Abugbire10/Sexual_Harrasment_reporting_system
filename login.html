@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sexual Harassment Reporting System</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sexual Harassment Reporting System</h1>
+      <div class="image-container">
+        <img src="Resources/cropped-AAMUSTED-LOGO.jpg" alt="System Logo" />
+      </div>
+      <form action="login_process.php" method="POST">
+        <label for="login">Email or Username:</label>
+        <input
+          type="text"
+          id="login"
+          name="login"
+          placeholder="Enter your email or username"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <input type="submit" value="Login" />
+      </form>
+      <p><a href="forgotpassword.php">Forgot Password?</a></p>
+      <p>Don't have an account? <a href="signup.html">Register as a User</a></p>
+      <p>
+        Don't have an account?
+        <a href="signup_admi.html">Register as an Administrator</a>
+      </p>
+      <p>
+        <a
+          href="index.html"
+          style="background-color: green; color: white; font-size: larger"
+          >HOME PAGE</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
